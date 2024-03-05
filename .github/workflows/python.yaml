@@ -44,3 +44,6 @@ jobs:
         tags: |
           matheus/flask-api:V${{github.run_number}}
           matheus/flask-api:latest
+    
+    - name: Exibindo imagens criadas
+      run: docker image ls
